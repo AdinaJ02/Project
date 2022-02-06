@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
+        <link href="mainGallery.css" rel="stylesheet" />
+        <link href="navbar.css" rel="stylesheet">
+        <title>Gallery</title>
+        <link rel="icon" href="icon.jpg">
+    </head>
+    <body>
+        <div class="main" style="height: 2000px;">
+            <span class="name">Adina Jacob </span>
+            <span class="home"><a href="index.html">Home </a></span>
+            <span class="gallery"><a href="Gallery.html">Gallery </a></span>
+            <span class="top_featured"><a href="TopFeatured.html">Top Featured</a></span>
+            <span class="about"><a href="AboutUs.html">About </a></span>
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <span class="beauty">The beauty of nature </span>
+            <div class="text_leave_main">
+                <span class="text_leave">Leave the road, take the trails to explore nature.</span>
+            </div>
+            <div class="div2"></div>
+            <span class="tips_tricks">Tips and Tricks to enhance mobile photography</span>
+            <span class="photograph">Each photograph has a story behind it!</span>
+        </div>
+        
+        <div class="wrapper">
+            <div class="left">
+                <div class="front">
+                    <div class="sectionWrap">
+                        <h1>PHOTOGRAPHY</h1>
+                        <br>
+                        <p class="preview">Story behind each photograph is different. It potrays some different story, value and perception. But it is upto us to understand the story.</p>
+                        <button class="openB"><p>Read more...</p></button>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="sectionWrap">
+                        <img src="gallery3.jpeg" width="400px" height="300px">
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="sectionWrap">
+                    <p>
+                        <b>Location:</b> Igatpuri<br><b>Day:</b>14<sup>th</sup> November, 2021<br><b>Time:</b> 11.50 am<br><br>
+                        The beautiful scenery that we can see is from the <b>Tringalwadi Dam.</b><br>
+                        <b>Igatpuri</b>, a place of beautiful mountains, hills and fresh air. Staying in a resort amid the mountains where you can see the sun rise, foggy mountains and hear the birds sing.<br>
+                        What more is needed you might be thinking. But yes, being a traveller you are always wanting to travel and explore the place.
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="sectionWrap">
+                    <p>Finding the place wasn't that easy. Even though we had a google map it directed us through roads that were uneven and had not been built properly. The road wasn't easy to travel, we started losing hope. But after coming so close to the destination according to the google maps, we said to ourselves let's take a leap of faith and continue our way ahead. And there we were 'The Tringalwadi Dam'. Beautiful lush green mountains and this beautiful lake in front of us.</p>
+                </div>
+                <button class="closeB">✕</button>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".openB").click(function(){
+                $(".left").addClass("open");
+                setTimeout(function(){
+                    $(".right").addClass("open");
+                }, 250);
+                setTimeout(function(){
+                    $(".back").addClass("open");
+                }, 350);
+                $(".closeB").delay(1000).fadeIn();
+                });
+
+                $(".closeB").click(function(){
+                    setTimeout(function(){
+                        $(".left").removeClass("open");
+                    }, 250);
+                    $(".right").removeClass("open");
+                    setTimeout(function(){
+                        $(".back").removeClass("open");
+                    }, 600);
+                    $(".closeB").fadeOut();
+                });
+            });
+        </script>
+        
+        <div class="div3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8dj_UZKnO9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="div4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IhAoqsxO3H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </body>
+</html>

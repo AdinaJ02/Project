@@ -1,0 +1,73 @@
+a:link, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.main {
+  width: 100%;
+  height: 705px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}.name {
+  width: 155px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 41px;
+  left: 100px;
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.home {
+  width: 49px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 370px;
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.gallery {
+  width: 57px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 484px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.top_featured{
+  width: 110px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 606px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left; 
+}
+.about {
+  width: 49px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 773px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}

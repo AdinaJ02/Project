@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+    margin: 0px;
+}
+body {
+  font-size: 14px;
+}
+.nature {
+  width: 486px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 230px;
+  left: 642px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.paragraph {
+  width: 783px;
+  color: rgba(42,36,36,0.75);
+  position: absolute;
+  top: 310px;
+  left: 642px;
+  font-family: Roboto Mono;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.passion {
+  width: 308px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 212px;
+  left: 642px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 0.4em;
+}
+
+.image {
+  width: 488px;
+  height: 527px;
+  background: url("img4.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  overflow: hidden;
+    border-radius: 40%;
+}
